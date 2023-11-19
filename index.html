@@ -851,7 +851,7 @@
 					</div>
 				</section> -->
 
-				<section id="inspo-2" data-transition="slide" data-background-transition="slide" >
+				<section id="inspo" data-transition="slide" data-background-transition="slide" >
 					<div class="story-text-3" style="display: flex;">
 						<div>
 							<img src="data/ashram.jpg" alt="picture">
@@ -871,7 +871,7 @@
 							<button onclick="Reveal.slide(2)" class="body-btn"><i class="fa fa-home" aria-hidden="true"></i></button>
 						</div>
 						<div class="right">
-							<button onclick="Reveal.prev()" class="body-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+							<!-- <button onclick="goPrevTo('inspo-2')" class="body-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i></button> -->
 							<button onclick="Reveal.next()" class="body-btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
 						</div>
 					</div>
@@ -898,7 +898,7 @@
 						</div>
 						<div class="right">
 							<button onclick="Reveal.prev()" class="body-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
-							<button onclick="Reveal.next()" class="body-btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+							<!-- <button onclick="Reveal.next()" class="body-btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button> -->
 						</div>
 					</div>
 				</section>
@@ -915,13 +915,13 @@
 				controls: false,
 				progress: false,
 				touch: false,
-				// keyboard: false, // toggle for working/editing mode!!
+				keyboard: false, // toggle for working/editing mode!!
 				controlsLayout: 'edges',
 				preloadIframes: 'true',
 				controlsBackArrows: 'visible',
 				overview: true,
 				viewDistance: 100,
-				hash: true, // toggle for working/editing!!
+				// hash: true, // toggle for working/editing!!
 			});
 
 			// Variable to store slide history
