@@ -46,6 +46,14 @@
     width: fit-content;
 }
 
+.story-textbox-3 {
+    background: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    padding: 50px;
+    transform: translateY(-25px);
+    width: fit-content;
+}
+
 .fit-container {
     width: fit-content;
 }
@@ -56,6 +64,12 @@
 
 .story-text-2 {
     font-size: 0.55em;
+}
+
+.story-text-3 {
+    font-size: 0.38em;
+    display: flex;
+    align-items: center;
 }
 
 /* button {
