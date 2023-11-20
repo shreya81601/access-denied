@@ -20,6 +20,14 @@
     color: #d60000;
 }
 
+.fragment.blur {
+    filter: blur(5px);
+}
+
+.fragment.blur.visible {
+    filter: none;
+}
+
 /* .make-it-pop {
     filter: drop-shadow(0 0 10px purple);
     text-shadow: 0 0 10px #808080, 0 0 50px #808080;
@@ -31,7 +39,7 @@
 }
 
 .story-textbox {
-    background: rgba(0, 0, 0, 0.4); 
+    background: rgba(0, 0, 0, 0.45); 
     overflow: auto;
     padding: 50px;
     transform: translateY(-25px);
@@ -78,7 +86,7 @@
 
 mark {
     color: #d60000;
-    background-color: rgba(247,188,0,1);
+    background-color: rgba(247,188,0,0);
 }
 
 
