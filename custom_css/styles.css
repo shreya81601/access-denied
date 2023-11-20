@@ -76,6 +76,11 @@
     color: red;
 } */
 
+mark {
+    color: #d60000;
+    background-color: rgba(247,188,0,1);
+}
+
 
 /************* Rectangular buttons / choice buttons **************/
 
