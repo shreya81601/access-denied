@@ -102,7 +102,7 @@ mark {
     padding: 20px;
     border-radius: 10pt;
     cursor: pointer;
-    /* color: black; */
+    color: black;
     /* display: block; */
     background-color: white;
 }
