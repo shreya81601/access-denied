@@ -39,7 +39,7 @@
 }
 
 .story-textbox {
-    background: rgba(0, 0, 0, 0.45); 
+    background: rgba(0, 0, 0, 0.5); 
     overflow: auto;
     padding: 50px;
     transform: translateY(-25px);
